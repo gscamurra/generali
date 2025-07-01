@@ -55,7 +55,13 @@ export default async function decorate(block) {
       block.replaceChildren(...fragmentSection.childNodes);
 
       block.removeAttribute('data-aue-type');
-      block.removeAttribute('data-aue-resource'); 
+      block.removeAttribute('data-aue-resource');
+      
+      const sectionToBlock = block.closest('section');
+      if (sectionToBlock) {
+        sectionToBlock.removeAttribute('data-aue-type');
+        sectionToBlock.removeAttribute('data-aue-resource');
+      }
     }
   }
 }
