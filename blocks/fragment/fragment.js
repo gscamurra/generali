@@ -53,6 +53,9 @@ export default async function decorate(block) {
       block.classList.add(...fragmentSection.classList);
       block.classList.remove('section');
       block.replaceChildren(...fragmentSection.childNodes);
+
+      block.removeAttribute('data-aue-type');
+      block.removeAttribute('data-aue-resource'); 
     }
   }
 }
