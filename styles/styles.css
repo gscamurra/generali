@@ -242,7 +242,7 @@ main > .section:first-of-type {
   margin-top: 0;
 }
 
-.section.hero-container.columns-container img {
+.section.hero-container.columns-container .columns-2-cols img {
   width: 350px;
   margin-left: auto;
   margin-right: auto;
