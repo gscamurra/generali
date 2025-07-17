@@ -253,6 +253,10 @@ main > .section:first-of-type {
    text-align: center;
  }
 
+.section.highlight .columns-2-cols div div { 
+  text-align: left !important;
+}
+
  .columns-2-cols div div:first-child a.button.secondary {
     min-width: 58%;
     color: #FFF;
