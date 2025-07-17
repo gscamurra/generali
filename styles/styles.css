@@ -265,6 +265,12 @@ main > .section:first-of-type {
 
  .section.highlight ul li {
     list-style-type: disclosure-closed;
+    margin-bottom: 10px;
+  }
+
+  .section.highlight ul {
+    font-size: 24px;
+    margin-left: 20px;
   }
 
   .section.highlight ul li::marker {
