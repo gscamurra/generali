@@ -254,7 +254,7 @@ main > .section:first-of-type {
  }
 
  .columns-2-cols div div:first-child a.button.secondary {
-    width: 58%;
+    min-width: 58%;
     color: #FFF;
     background: #C21D13;
  }
