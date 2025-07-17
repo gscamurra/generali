@@ -242,6 +242,13 @@ main > .section:first-of-type {
   margin-top: 0;
 }
 
+.section.hero-container.columns-container img {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 350px;
+ }
+
 @media (width >= 900px) {
   main > .section > div {
     padding: 0 32px;
