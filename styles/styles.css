@@ -253,6 +253,12 @@ main > .section:first-of-type {
    text-align: center;
  }
 
+ .columns-2-cols div div:first-child a.button.secondary {
+    width: 58%;
+    color: #FFF;
+    background: #C21D13;
+ }
+
 @media (width >= 900px) {
   main > .section > div {
     padding: 0 32px;
