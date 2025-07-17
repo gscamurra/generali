@@ -263,6 +263,10 @@ main > .section:first-of-type {
     background: #C21D13;
  }
 
+ .section.highlight ul li {
+    list-style-type: disclosure-closed;
+  }
+
 @media (width >= 900px) {
   main > .section > div {
     padding: 0 32px;
