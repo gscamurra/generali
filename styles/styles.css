@@ -268,7 +268,8 @@ main > .section:first-of-type {
 /* section metadata */
 main .section.light,
 main .section.highlight {
-  background-color: var(--light-color);
   margin: 0;
   padding: 40px 0;
+  color: #FFF;
+  background: #000;
 }
