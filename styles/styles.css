@@ -267,6 +267,10 @@ main > .section:first-of-type {
     list-style-type: disclosure-closed;
   }
 
+  .section.highlight ul li::marker {
+    color: #C21D13;
+  }
+
 @media (width >= 900px) {
   main > .section > div {
     padding: 0 32px;
