@@ -249,7 +249,7 @@ main > .section:first-of-type {
   border-radius: 350px;
  }
 
- .columns-2-cols div:first-child { 
+ .columns-2-cols div div:first-child { 
    text-align: center;
  }
 
