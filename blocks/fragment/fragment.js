@@ -54,8 +54,9 @@ export default async function decorate(block) {
       block.classList.remove('section');
       block.replaceChildren(...fragmentSection.childNodes);
 
-      //block.removeAttribute('data-aue-type');
-      //block.removeAttribute('data-aue-resource');
+      //hide edit block
+      block.removeAttribute('data-aue-type');
+      block.removeAttribute('data-aue-resource');
       
       const sectionToBlock = block.closest('section');
       if (sectionToBlock) {
