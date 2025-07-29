@@ -246,6 +246,21 @@
           { "name": "Saluto", "value": "greeting" },
           { "name": "Conferma", "value": "confirmation" }
         ]
+      },
+      {
+        "component": "multiselect",
+        "name": "listSkills",
+        "label": "Seleziona le tue skills:",
+        "options": [
+          {
+            "name": "Blocco a sfondo nero",
+            "value": "highlight"
+          },
+          {
+            "name": "Blocco a sfondo nero",
+            "value": "highlight1"
+          }
+        ]
       }
     ]
   }
