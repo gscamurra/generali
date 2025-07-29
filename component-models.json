@@ -207,6 +207,14 @@
         "value": ""
       },
       {
+        "component": "custom-asset-namespace:custom-asset",            
+        "name": "desktopImage",
+        "label": "Hero Image",
+        "configUrl": "https://your-config-server/path/to/config.json", 
+        "valueType": "string",
+        "assetType": "image"
+      },
+      {
         "component": "richtext",
         "name": "text",
         "value": "",
