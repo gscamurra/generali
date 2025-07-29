@@ -233,5 +233,20 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "skills",
+    "fields": [
+      {
+        "component": "select",
+        "name": "messageType",
+        "label": "Tipo Messaggio",
+        "valueType": "string",
+        "options": [
+          { "name": "Saluto", "value": "greeting" },
+          { "name": "Conferma", "value": "confirmation" }
+        ]
+      }
+    ]
   }
 ]
