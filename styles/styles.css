@@ -291,3 +291,10 @@ main .section.highlight {
   color: #FFF;
   background: #000;
 }
+
+
+/* custom UE */
+
+.drop-container ul li:last-child {
+  display: none;
+}
