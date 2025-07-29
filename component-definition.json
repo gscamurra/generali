@@ -159,8 +159,8 @@
           }
         },
     {
-      "title": "Text",
-      "id": "text",
+      "title": "Skills",
+      "id": "skills",
       "plugins": {
         "xwalk": {
           "page": {
