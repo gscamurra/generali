@@ -243,7 +243,7 @@ main > .section:first-of-type {
 }
 
 .section.hero-container.columns-container .columns-2-cols img, .style-profile img {
-  width: 350px;
+  width: 350px !important;
   margin-left: auto;
   margin-right: auto;
   border-radius: 350px;
