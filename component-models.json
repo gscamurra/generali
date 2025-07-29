@@ -134,7 +134,7 @@
         "label": "Style",
         "options": [
           {
-            "name": "Highlight",
+            "name": "Blocco a sfondo nero",
             "value": "highlight"
           }
         ]
