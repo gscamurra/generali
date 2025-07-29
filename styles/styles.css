@@ -295,6 +295,8 @@ main .section.highlight {
 
 /* custom UE */
 
-[data-id="15e7b614-aa1f-5ab1-98e3-a7c6b5303d98"] {
+
+li[data-id="15e7b614-aa1f-5ab1-98e3-a7c6b5303d98"] {
   display: none !important;
 }
+
