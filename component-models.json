@@ -239,7 +239,7 @@
     "fields": [
       {
         "component": "multiselect",
-        "name": "listSkills",
+        "name": "skills",
         "label": "Seleziona le tue skills:",
         "options": [
           {
