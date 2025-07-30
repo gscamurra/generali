@@ -1,6 +1,6 @@
 export default function decorate(block) {
 
 
-  console.log("skills: " + block.textContent.trim());
+  console.log(block.textContent);
 
 }
