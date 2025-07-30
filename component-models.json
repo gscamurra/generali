@@ -238,30 +238,35 @@
     "id": "skills",
     "fields": [
       {
-        "component": "select",
-        "name": "messageType",
-        "label": "Tipo Messaggio",
-        "valueType": "string",
-        "options": [
-          { "name": "Saluto", "value": "greeting" },
-          { "name": "Conferma", "value": "confirmation" }
-        ]
-      },
-      {
         "component": "multiselect",
         "name": "listSkills",
         "label": "Seleziona le tue skills:",
         "options": [
           {
-            "name": "Blocco a sfondo nero",
-            "value": "highlight"
+            "name": "Analisi Asset Allocation",
+            "value": "Analisi Asset Allocation"
           },
           {
-            "name": "Blocco a sfondo nero",
-            "value": "highlight1"
+            "name": "Gestione portafoglio titoli",
+            "value": "Gestione portafoglio titoli"
+          },
+          {
+            "name": "Analisi di portafoglio clienti",
+            "value": "Analisi di portafoglio clienti"
+          },
+          {
+            "name": "Pianificazione successoria",
+            "value": "Pianificazione successoria"
+          },
+          {
+            "name": "Servizi Assicurativi",
+            "value": "Servizi Assicurativi"
           }
         ]
       }
     ]
   }
 ]
+
+
+  
