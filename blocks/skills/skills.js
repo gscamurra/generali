@@ -1,7 +1,7 @@
 export default function decorate(block, { listSkills }) {
-  let text = listSkills[0];
+  let text = listSkills;
 
-  console.log (listSkills[0]);
+  console.log (listSkills);
 
   block.innerHTML = `<ul>${text}</ul>`;
 }
