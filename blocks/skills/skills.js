@@ -1,7 +1,5 @@
-export default function decorate(block, { skills }) {
-  let text = skills;
+export default function decorate(block) {
 
-  console.log (text);
+  console.log (block);
 
-  block.innerHTML = `<ul>${text}</ul>`;
 }
