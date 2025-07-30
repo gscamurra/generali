@@ -1,5 +1,7 @@
 export default function decorate(block) {
 
-  console.log (block);
+  let skillsList = block.textContent;
+
+  console.log (skillsList);
 
 }
