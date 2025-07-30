@@ -1,16 +1,6 @@
-export default function decorate(block, { messageType }) {
-  let text = '';
+export default function decorate(block, { listSkills }) {
+  let text = listSkills;
 
-  switch (messageType) {
-    case 'greeting':
-      text = 'Ciao, benvenuto!';
-      break;
-    case 'confirmation':
-      text = 'La tua richiesta è stata confermata.';
-      break;
-    default:
-      text = 'Seleziona una tipologia di messaggio.';
-  }
 
-  block.innerHTML = `<p>${text}</p>`;
+  block.innerHTML = `<ul>${text}</ul>`;
 }
