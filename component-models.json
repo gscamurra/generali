@@ -244,23 +244,23 @@
         "options": [
           {
             "name": "Analisi Asset Allocation",
-            "value": "Analisi Asset Allocation"
+            "value": "- Analisi Asset Allocation"
           },
           {
             "name": "Gestione portafoglio titoli",
-            "value": "Gestione portafoglio titoli"
+            "value": "- Gestione portafoglio titoli"
           },
           {
             "name": "Analisi di portafoglio clienti",
-            "value": "Analisi di portafoglio clienti"
+            "value": "- Analisi di portafoglio clienti"
           },
           {
             "name": "Pianificazione successoria",
-            "value": "Pianificazione successoria"
+            "value": "- Pianificazione successoria"
           },
           {
             "name": "Servizi Assicurativi",
-            "value": "Servizi Assicurativi"
+            "value": "- Servizi Assicurativi"
           }
         ]
       }
